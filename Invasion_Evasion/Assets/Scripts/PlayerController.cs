@@ -90,7 +90,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    //Follow players mouse pos
+    //Follow players mouse pos, SOURCED FROM YOUTUBE (REFERENCE IN WORD DOC).
     void HandleMouseLook()
     {
         Ray cameraRay = mainCam.ScreenPointToRay(Input.mousePosition);
